@@ -1,13 +1,15 @@
 {
-  "cycle": 3,
-  "timestamp": "2026-10-13T11:23:22.709884",
-  "state_hash": "pending",
+  "cycle": 1,
+  "timestamp": "2026-10-13T11:37:35.464486",
   "proof_chain_head": "unknown",
   "vocab_size": 0,
   "active_organs": 0,
   "goals_satisfied": 0,
+  "parietal_nodes": 0,
+  "parietal_edges": 0,
   "consensus_round": 0,
   "consensus_state_hash": "genesis_consensus_anchor",
   "aethar_signature_version": 0,
-  "message": "NSHE Cycle 3 complete."
+  "homeostasis_balance": 0.0,
+  "message": "NSHE Cycle 1 complete."
 }
