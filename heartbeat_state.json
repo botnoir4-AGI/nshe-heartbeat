@@ -1,13 +1,13 @@
 {
   "cycle": 1,
-  "timestamp": "2026-10-13T10:00:00Z",
-  "state_hash": "genesis_post_restart",
-  "proof_chain_head": "721c348ca2e72aaa",
-  "vocab_size": 119761,
-  "active_organs": 14,
-  "goals_satisfied": 162,
+  "timestamp": "2026-10-13T11:15:00.634649",
+  "state_hash": "pending",
+  "proof_chain_head": "unknown",
+  "vocab_size": 0,
+  "active_organs": 0,
+  "goals_satisfied": 0,
   "consensus_round": 0,
   "consensus_state_hash": "genesis_consensus_anchor",
-  "aethar_signature_version": 2426,
-  "message": "NSHE heartbeat initialized. Public broadcast active."
+  "aethar_signature_version": 0,
+  "message": "NSHE Cycle 1 complete."
 }
