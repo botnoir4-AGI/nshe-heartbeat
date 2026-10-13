@@ -1,15 +1,15 @@
 {
   "cycle": 1,
-  "timestamp": "2026-10-13T11:37:35.464486",
-  "proof_chain_head": "unknown",
-  "vocab_size": 0,
-  "active_organs": 0,
-  "goals_satisfied": 0,
-  "parietal_nodes": 0,
-  "parietal_edges": 0,
+  "timestamp": "2026-10-13T19:01:28.812983",
+  "proof_chain_head": "8a7096472cb8a885",
+  "vocab_size": 126345,
+  "active_organs": 6,
+  "goals_satisfied": 162,
+  "parietal_nodes": 2372,
+  "parietal_edges": 2972,
   "consensus_round": 0,
   "consensus_state_hash": "genesis_consensus_anchor",
-  "aethar_signature_version": 0,
+  "aethar_signature_version": "2026-10-06T18:59:04.083673",
   "homeostasis_balance": 0.0,
   "message": "NSHE Cycle 1 complete."
 }
