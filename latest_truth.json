@@ -2,12 +2,12 @@
   "source": "NSHE_ORACLE_V0.1",
   "rootkey": "Adiguna.Sopyan.RootKey",
   "prime_id": "1801d0eebe91c6ad",
-  "timestamp": "2026-10-24T07:50:34.290189Z",
+  "timestamp": "2026-10-24T07:54:23.428661Z",
   "data": {
     "network_status": "ACTIVE",
     "verified_nodes": 395,
     "threat_level": "LOW",
-    "oracle_uptime_sec": 28234
+    "oracle_uptime_sec": 28463
   },
-  "signature": "SIM_SIG_2026-10-24T075034"
+  "signature": "SIM_SIG_2026-10-24T075423"
 }
