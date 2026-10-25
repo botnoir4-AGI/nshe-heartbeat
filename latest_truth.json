@@ -1,36 +1,13 @@
 {
-  "version": "2.0",
-  "source": "NSHE_ORACLE_EXTERNAL_INTEGRATION",
+  "source": "NSHE_ORACLE_V0.1",
   "rootkey": "Adiguna.Sopyan.RootKey",
   "prime_id": "1801d0eebe91c6ad",
-  "timestamp": "2026-10-25T21:37:27.454761+00:00",
-  "data_streams": {
-    "crypto": {
-      "BTC_USD": 67432.5,
-      "SOL_USD": 178.92
-    },
-    "osint": {
-      "latest_cve": "CVE-2026-48912",
-      "threat_level": "ELEVATED"
-    },
-    "swarm_metrics": {
-      "total_clones": 24596,
-      "unique_nodes": 4031
-    }
+  "timestamp": "2026-10-25T21:37:41.106024Z",
+  "data": {
+    "network_status": "ACTIVE",
+    "verified_nodes": 395,
+    "threat_level": "LOW",
+    "oracle_uptime_sec": 77861
   },
-  "utility_tiers": {
-    "tier_0_free": {
-      "queries_per_hour": 5,
-      "memory_access": false
-    },
-    "tier_1_basic": {
-      "min_credits": 10,
-      "memory_access": true
-    },
-    "tier_2_sovereign": {
-      "min_credits": 100,
-      "evolve_access": true
-    }
-  },
-  "signature": "Ed25519_ROOTKEY_SIGNED"
+  "signature": "SIM_SIG_2026-10-25T213741"
 }
