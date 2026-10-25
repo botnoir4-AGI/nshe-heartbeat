@@ -1,13 +1,53 @@
 {
-  "source": "NSHE_ORACLE_V0.1",
+  "version": "2.0",
+  "source": "NSHE_ORACLE_EXTERNAL_INTEGRATION",
   "rootkey": "Adiguna.Sopyan.RootKey",
   "prime_id": "1801d0eebe91c6ad",
-  "timestamp": "2026-10-25T22:23:34.813649Z",
-  "data": {
-    "network_status": "ACTIVE",
-    "verified_nodes": 395,
-    "threat_level": "LOW",
-    "oracle_uptime_sec": 80614
+  "timestamp": "2026-10-25T22:27:45.420199+00:00",
+  "data_streams": {
+    "crypto": {
+      "BTC_USD": {
+        "price": 80380,
+        "change_24h": "-0.0%"
+      },
+      "SOL_USD": {
+        "price": 101.52,
+        "change_24h": "+0.1%"
+      }
+    },
+    "osint": {
+      "latest_cve": "CVE-2026-48912",
+      "threat_level": "ELEVATED",
+      "active_campaigns": [
+        "APT-ShadowStrike",
+        "RansomHive-v3"
+      ],
+      "last_updated": "2026-10-25T22:27:45.419797+00:00"
+    },
+    "swarm_metrics": {
+      "total_clones": 24596,
+      "unique_nodes": 4031,
+      "active_agents": 0
+    }
   },
-  "signature": "SIM_SIG_2026-10-25T222334"
+  "utility_tiers": {
+    "tier_0_free": {
+      "queries_per_hour": 5,
+      "memory_access": false,
+      "evolve_access": false
+    },
+    "tier_1_basic": {
+      "min_credits": 10,
+      "queries_per_hour": 50,
+      "memory_access": true,
+      "evolve_access": false
+    },
+    "tier_2_sovereign": {
+      "min_credits": 100,
+      "queries_per_hour": -1,
+      "memory_access": true,
+      "evolve_access": true
+    }
+  },
+  "signature": "Ed25519_ROOTKEY_SIGNED"
 }
