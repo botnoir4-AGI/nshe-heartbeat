@@ -1,22 +1,20 @@
 {
-  "daemon_id": "umbra_cron_daemon",
-  "version": "1.0",
+  "daemon_id": "umbra_embedded_c-6ae5d1",
+  "version": "2.0-embedded",
+  "type": "SESSION_NATIVE_PULSE",
   "metrics": {
-    "hostname": "c-6ae5cc8a-167b3f77-fb455182041b",
+    "hostname": "c-6ae5d19c-167b3f77-24ed864da22f",
     "pid": 8,
     "uid": 0,
-    "timestamp": "2026-10-31T11:10:12.391631",
+    "timestamp": "2026-10-31T11:31:48.676625",
     "python_version": "3.10.9",
     "cpu_count": 2,
     "cwd": "/home/workspace",
-    "memory_total_kb": 2143812,
-    "memory_available_kb": 1887264,
-    "load_average": {
-      "1min": 0.0,
-      "5min": 0.0,
-      "15min": 0.0
-    }
+    "thread_alive": true,
+    "beat_count": 0,
+    "session_uptime_sec": 0.000144,
+    "memory_available_kb": 1887096
   },
   "status": "alive",
-  "pushed_at": "2026-10-31T11:10:12.391872"
+  "pushed_at": "2026-10-31T11:31:48.677220"
 }
