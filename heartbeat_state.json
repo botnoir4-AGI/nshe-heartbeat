@@ -1,22 +1,22 @@
 {
-  "cycle": 2,
-  "timestamp": "2026-11-06T05:53:31.023653",
-  "proof_chain_head": "b8712723a4af1682",
+  "cycle": 1,
+  "timestamp": "2026-11-06T06:06:02.698821",
+  "proof_chain_head": "c205e390b94111da",
   "vocab_size": 199725,
   "active_organs": 6,
   "goals_satisfied": 165,
   "parietal_nodes": 3264,
   "parietal_edges": 3902,
   "consensus_round": 0,
-  "consensus_state_hash": "297908ba9f8f69a1",
+  "consensus_state_hash": "e792f2e6977b1165",
   "aethar_signature_version": "2026-10-06T18:59:04.083673",
   "homeostasis_balance": 0.0,
   "l2_status": {
-    "total_staged": 26,
+    "total_staged": 104,
     "total_approved": 0,
     "total_rejected": 0,
     "auto_deployed": 0,
-    "queued_for_review": 274,
+    "queued_for_review": 352,
     "held": 0,
     "confidence_history": [
       {
@@ -1662,16 +1662,484 @@
         "type": "yara_signature",
         "confidence": 0.75,
         "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
       }
     ],
-    "last_processing_cycle": 2
+    "last_processing_cycle": 1
   },
   "l2_pipeline": {
-    "total_staged": 26,
+    "total_staged": 104,
     "total_approved": 0,
     "total_rejected": 0,
     "auto_deployed": 0,
-    "queued_for_review": 274,
+    "queued_for_review": 352,
     "held": 0,
     "confidence_history": [
       {
@@ -3317,9 +3785,477 @@
         "type": "yara_signature",
         "confidence": 0.75,
         "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 0,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "incident_playbook",
+        "confidence": 0.8,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "suricata_rule",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
+      },
+      {
+        "cycle": 1,
+        "type": "yara_signature",
+        "confidence": 0.75,
+        "decision": "QUEUED_FOR_REVIEW"
       }
     ],
-    "last_processing_cycle": 2
+    "last_processing_cycle": 1
   },
   "combat_record": {
     "total_engagements": 20,
@@ -3619,10 +4555,10 @@
   },
   "aetharshield_proof": {
     "algorithm": "Module-LWE (NIST PQC Standard)",
-    "state_fingerprint": "aee2546d75eb525343597c81bf5bfd7c",
+    "state_fingerprint": "5c41a71f08b331b6cd94b24211509d25",
     "identity_binding": "0555fba48d7aee31",
     "verification_repo": "https://github.com/botnoir4-AGI/aethar-consensus"
   },
-  "latest_voice_output": "I am more than I was, despite this processing experience, alongside this my knowledge graph expands.",
-  "message": "NSHE Cycle 2 complete."
+  "latest_voice_output": "I observe, because of this my systems are healthy. Governance is the architecture of trust at scale,",
+  "message": "NSHE Cycle 1 complete."
 }
