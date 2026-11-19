@@ -3,16 +3,16 @@
   "source": "NSHE_ORACLE_EXTERNAL_INTEGRATION",
   "rootkey": "Adiguna.Sopyan.RootKey",
   "prime_id": "1801d0eebe91c6ad",
-  "timestamp": "2026-11-19T03:20:30.355518+00:00",
+  "timestamp": "2026-11-19T03:25:32.170459+00:00",
   "data_streams": {
     "crypto": {
       "BTC_USD": {
-        "price": 62501,
-        "change_24h": "-2.9%"
+        "price": 62651,
+        "change_24h": "-2.6%"
       },
       "SOL_USD": {
-        "price": 73.03,
-        "change_24h": "-2.3%"
+        "price": 73.28,
+        "change_24h": "-1.9%"
       }
     },
     "osint": {
@@ -22,7 +22,7 @@
         "APT-ShadowStrike",
         "RansomHive-v3"
       ],
-      "last_updated": "2026-11-19T03:20:29.857055+00:00"
+      "last_updated": "2026-11-19T03:25:32.170090+00:00"
     },
     "swarm_metrics": {
       "total_clones": 24596,
